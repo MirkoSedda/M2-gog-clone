@@ -2,6 +2,7 @@
   --dark-bg: #2c2c2c;
   --light-bg: #d9d9d9;
   --pink-link: #eca9f2;
+  --discount-bg: #721e78;
   --light-text: #f2f2f2;
   --dark-text: #562121;
 }
@@ -24,4 +25,19 @@ body {
 
 .margin-lg {
   margin-top: 75px;
+}
+
+.discount-bg {
+  background-color: var(--discount-bg);
+  font-size: 0.8rem;
+  padding: 0.4em 0.4em;
+}
+
+.small-text {
+  font-size: 0.8rem;
+  line-height: 0.7;
+}
+
+.smallest-text {
+  font-size: 0.6rem;
 }
