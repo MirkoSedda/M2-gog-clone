@@ -1,0 +1,145 @@
+/* we are going to use one class for all the small cards */
+
+.card {
+  width: 23%; /* we want 4 cards => 100/ 4 = 25%, but we also want some space between them */
+  min-width: 150px;
+  height: 180px;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card--big {
+    width: 100%; 
+    height: 100%;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card--big .card__image {
+    height: 80%!important;
+}
+
+.card--big .card__body {
+    height: 20%!important
+}
+
+.card--sm {
+    width: 100%;
+    height: 70px;
+
+    flex-direction: row;
+    border-bottom: .5px #B8B8B8 solid;
+}
+
+.card--sm .card__image {
+    width: 20%!important;
+    height: 100%!important;
+
+    max-width: 89px;
+}
+
+.card--sm .card__body {
+    height: 100% !important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card--sm .card__body .card__meta {
+    height: 100%!important;
+}
+
+.card--sm .card__body .card__meta .os {
+    margin-right: 20px ;
+}
+.card--sm .card__body .card__meta .price  {
+    width: fit-content!important;
+    align-items: center;
+    justify-content: center!important;
+
+    height: 100%!important;
+}
+
+.card--sm .card__body .card__meta .price .discount {
+    width: 100px!important;
+}
+
+.card--sm .card__body .card__meta .price .new__price {
+    align-self: unset!important;
+}
+
+.card .card__image {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card .card__body {
+  box-sizing: border-box;
+  height: 40%;
+  padding: 10px;
+}
+
+.card .card__body h6 {
+  height: fit-content;
+  margin: 0px;
+  font-weight: normal;
+  color: #232323;
+  font-size: 9pt;
+}
+
+.card .card__body .card__meta {
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card .card__body .card__meta .os .card__os {
+  width: 11px;
+  height: 11px;
+  object-fit: contain;
+}
+.card .card__body .card__meta .price {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.card .card__body .card__meta .price .discount {
+  width: 50%;
+  max-width: 50px;
+  height: 30px;
+
+  background-color: #721e78;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 10pt;
+  font-weight: bold;
+  color: white;
+
+  margin-right: 10px;
+}
+
+.card .card__body .card__meta .price .new__price {
+  align-self: flex-end;
+  font-size: 10pt;
+  text-align: center;
+  font-weight: bold;
+
+  color: #232323;
+}

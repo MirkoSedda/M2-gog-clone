@@ -1,0 +1,79 @@
+.nav__wrap {
+  width: 100vw; /* remember that vw = viewport width = the size of your page */
+
+  /*body is position relative*/
+  position: sticky; /* makes sure the navbar stays on screen when scrolling down */
+  top: 0;
+  left: 0;
+
+  /*this is the container of both the navbar andthe little decoration at the top, which we need stacked as a column */
+  display: flex;
+  flex-direction: column;
+
+  z-index: 2;
+}
+
+.nav__wrap img:not(.nav__logo) {
+  width: 100%;
+  height: 4px;
+}
+
+.nav__logo {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+
+}
+
+.nav__inner {
+  width: 100%;
+  height: 50px;
+
+  /* inside nav__inner we are going to be our actual navbar */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* vertical alignment */
+  justify-content: space-between; /* space between = | el------el | */
+
+  background-color: #2c2c2c;
+
+}
+
+.nav__dropdown-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav__dropdown {
+  font-size: 10pt;
+  color: #acacac;
+  font-weight: bold;
+  margin-left: 30px;
+
+  position: relative;
+}
+
+.nav__dropdown--content {
+  display: none;
+
+  color: white;
+  background-color: white;
+
+  width: 250px;
+  height: fit-content;
+
+  position: absolute;
+  top: 50px;
+  left: 0px;
+
+box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown__element {
+    width: 100%;
+    height: 40px;
+    border-bottom: .5px grey solid;
+}

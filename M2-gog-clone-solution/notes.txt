@@ -1,0 +1,11 @@
+Hello Striver! 
+
+I created a css file for each "component" of the page, so that you can analize them one by one.
+The "style.css" file is the general layout of the page.
+ALL media queries are in the media.css file
+
+The carousel does not move, but I think it can be very intersting for you understanding how I built the structure. 
+
+I decided to populate the images with javascript, you can find code + explanation on index.js
+
+Cheers and happy coding! 

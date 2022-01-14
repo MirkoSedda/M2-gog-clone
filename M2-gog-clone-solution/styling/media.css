@@ -1,0 +1,77 @@
+@media screen and (max-width: 1500px) {
+    .new__section, .sale__section, .recommended {
+        flex-wrap: wrap;
+    }
+    .new__section .card {
+        width: 48%!important;
+    }
+
+    .recommended .card {
+        width: 45%!important;
+    }
+
+    .nav__wrap {
+        display: none;
+    }
+
+    .sale__el {
+        width: 39%!important
+    }
+    .good__sec .offer--big {
+        width: 65%;
+    }
+    .good__sec .offer--sm {
+        width: 45%;
+        flex-direction: column!important;
+        flex-wrap: nowrap;
+        height: 430px;
+
+    }
+    .good__sec .offer--sm .card {
+        width: 100%;
+    }
+
+    .good__sec .offer--sm .card:nth-of-type(3), .good__sec .offer--sm .card:nth-of-type(4) {
+        display: none;
+    }
+    .discover {
+        flex-direction: column!important;
+    }
+    .discover__col {
+        width: 100%!important;
+    }
+
+    .discover__tapestry {
+        width: 100%!important;
+        margin-left: 0px!important;
+        margin-top: 20px;
+    }
+    .tap__row:first-of-type .tap__col:last-of-type {
+        width: 50%!important;
+    }
+
+}
+
+@media screen and (max-width: 977px) {
+    .sale__el {
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .new__section .card {
+        width: 100%!important;
+    }
+    .divider {
+        flex-direction: column!important;
+        height: fit-content!important;
+        padding-bottom: 10px;
+    }
+    .divider .sec__text {
+        width: 100%!important;
+    }
+
+    .discover__col .price {
+        flex-direction: column!important;
+    }
+}
