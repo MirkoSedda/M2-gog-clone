@@ -6,6 +6,10 @@
   --dark-text: #562121;
 }
 
+body {
+  background-color: var(--light-bg);
+}
+
 .container {
   max-width: 1100px;
 }
@@ -16,4 +20,8 @@
 
 .fixed-top {
   font-size: 0.8em;
+}
+
+.margin-lg {
+  margin-top: 75px;
 }
