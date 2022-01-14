@@ -27,10 +27,18 @@ body {
   margin-top: 75px;
 }
 
+.first-tiles {
+  object-fit: cover;
+}
+
 .discount-bg {
   background-color: var(--discount-bg);
   font-size: 0.8rem;
   padding: 0.4em 0.4em;
+}
+
+.card-text {
+  font-size: 0.9rem !important;
 }
 
 .small-text {
@@ -40,4 +48,18 @@ body {
 
 .smallest-text {
   font-size: 0.6rem;
+}
+
+.dotted-card {
+  height: 251px;
+  background-color: var(--light-bg);
+  border: 2px dashed var(--discount-bg);
+}
+
+.dotted-card a {
+  height: 251px;
+  background-color: var(--light-bg);
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: var(--discount-bg);
 }
