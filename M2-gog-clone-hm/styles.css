@@ -51,7 +51,7 @@ body {
 }
 
 .dotted-card {
-  height: 251px;
+  height: 251.02px;
   background-color: var(--light-bg);
   border: 2px dashed var(--discount-bg);
 }
