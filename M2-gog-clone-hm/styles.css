@@ -46,8 +46,16 @@ body {
   font-size: 0.8em;
 }
 
-.margin-lg {
+.margin-top-lg {
   margin-top: 75px;
+}
+
+.margin-left-md {
+  margin-left: 75px;
+}
+
+.margin-left-lg {
+  margin-left: 100px;
 }
 
 .first-tiles {
