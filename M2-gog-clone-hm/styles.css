@@ -3,6 +3,7 @@
   --light-bg: #d9d9d9;
   --pink-link: #eca9f2;
   --discount-bg: #721e78;
+  --discount-text: #721e78;
   --circle-color: #bc00e6;
   --light-text: #f2f2f2;
   --dark-text: #562121;
@@ -19,6 +20,14 @@
 
 .circle-color {
   color: var(--circle-color) !important;
+}
+
+.dark-text {
+  color: var(--dark-text) !important;
+}
+
+.discount-text {
+  color: var(--discount-text) !important;
 }
 
 body {
