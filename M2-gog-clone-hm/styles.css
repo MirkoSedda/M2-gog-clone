@@ -10,6 +10,10 @@
   --nav-bar-light-text: #ccc;
 }
 
+.light-bg {
+  background-color: var(--light-bg) !important;
+}
+
 .light-text {
   color: var(--nav-bar-light-text) !important;
 }
@@ -56,6 +60,14 @@ body {
 
 .margin-left-lg {
   margin-left: 100px;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.hr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .first-tiles {
