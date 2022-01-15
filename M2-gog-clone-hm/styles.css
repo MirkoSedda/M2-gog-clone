@@ -5,6 +5,11 @@
   --discount-bg: #721e78;
   --light-text: #f2f2f2;
   --dark-text: #562121;
+  --nav-bar-light-text: #ccc;
+}
+
+.light-text {
+  color: var(--nav-bar-light-text) !important;
 }
 
 body {
